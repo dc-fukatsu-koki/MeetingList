@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MeetingList.Model\MeetingList.Model.csproj" />
+    <ProjectReference Include="..\OutlookDataAccess.csproj\OutlookDataAccess.csproj" />
+    <ProjectReference Include="..\SlackIntegration\SlackIntegration.csproj" />
+  </ItemGroup>
+
 </Project>
